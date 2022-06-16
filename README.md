@@ -1,24 +1,9 @@
 # ESP8266 FastLED IoT Webserver
 
-<a href="https://github.com/NimmLor/esp8266-fastled-iot-webserver/graphs/contributors" alt="Contributors"><img src="https://img.shields.io/github/contributors/NimmLor/esp8266-fastled-iot-webserver" /></a> <a href="https://github.com/NimmLor/esp8266-fastled-iot-webserver/releases" alt="Downloads"><img src="https://img.shields.io/github/downloads/NimmLor/esp8266-fastled-iot-webserver/total"/></a> <a href="https://github.com/NimmLor/esp8266-fastled-iot-webserver/commits/master" alt="Downloads"><img src="https://img.shields.io/github/commits-since/NimmLor/esp8266-fastled-iot-webserver/latest?include_prereleases" /></a> <a href="https://github.com/NimmLor/esp8266-fastled-iot-webserver/releases" alt="Downloads"><img src="https://img.shields.io/github/downloads-pre/NimmLor/esp8266-fastled-iot-webserver/latest/total?color=%09%23228B22&label=download%40latest-version" /></a>
+This is a fork of [jasoncoon's esp8266 fastled webserver](https://github.com/jasoncoon/esp8266-fastled-webserver) that was adapted to control the colors of my  [LED-Projects](https://www.thingiverse.com/Surrbradl08/designs). Also forked from https://github.com/NimmLor/esp8266-fastled-iot-webserver
 
-
-This is a fork of [jasoncoon's esp8266 fastled webserver](https://github.com/jasoncoon/esp8266-fastled-webserver) that was adapted to control the colors of my  [LED-Projects](https://www.thingiverse.com/Surrbradl08/designs).
-
-![Webinterface](web_ui.jpg?raw=true)
 
 The web app is stored in SPIFFS (on-board flash memory) and has around 400kb. All stylsheets/js used are also stored in the spiffs, so no internet connection is required to view the webpage correctly.
-
-**New:** Windows application to sync the LED devices with music. Completely optional but it's awesome. But it's just the first prototype and very experimental. Software and docs still work in progress.
-
-https://github.com/NimmLor/IoT-Audio-Visualization-Center 
-
-Can be downloaded [here](https://github.com/NimmLor/IoT-Audio-Visualization-Center/releases).
-
-![screenshot_alpha](screenshot_alpha.jpg?raw=true)
-
-https://github.com/NimmLor/IoT-Audio-Visualization-Center
-
 
 
 ## What happened here?
@@ -48,35 +33,7 @@ All of my recent project were merged into one including most of the features. A 
 * 5V Power Supply:						https://s.click.aliexpress.com/e/_dY5zCWt
 	
 
-**3D-Printed 7-Segment Clock**, display the time, syncs with a ntp server of your choice
-
-* unfortunately the "thing's" description isn't updated yet to the new standalone system
-	
-* Project link, small version:			https://www.thingiverse.com/thing:3117494
-* Project link, large version:			https://www.thingiverse.com/thing:2968056
-
-**3D-Printed Desk Lamp**, a lamp that reacts to sound for your desk
-
-* Project link, twisted version:		https://www.thingiverse.com/thing:4129249
-* Project link, round version:			https://www.thingiverse.com/thing:3676533
-
-**3D-Printed Nanoleafs**, a Nanoleaf clone that can be made for cheap
-
-* Project link:													https://www.thingiverse.com/thing:3354082
-	
-
-**3D-Printed Animated RGB Logos**, a small 3D-Printed logo that lights up with style
-
-* Project link, Twenty-One-Pilots Logo:		https://www.thingiverse.com/thing:3523487
-* Project link, Thingiverse Logo:			https://www.thingiverse.com/thing:3531086
-
-**(soon) 3D-Printed Infinity Mirror**, a DIY infinity mirror inspired by Adafruit
-
-* Project link, Sound Reactive Infinity Mirror:		https://www.thingiverse.com/thing:4461070
-
-**3D-Printed IoT Bottle Lighting Pad**, a simple but smart lighting for any bottle you want.
-
-* Project link, IoT Bottle Lighting Pad:		https://www.thingiverse.com/thing:4461313
+					https://www.thingiverse.com/thing:3354082
 
 
 Installation
